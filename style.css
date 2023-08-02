@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+.container {
+    text-align: center;
+    margin-top: 200px;
+    padding: 70px;
+    background-color: lightcoral;
+    border: 1px solid #cccccc;
+    border-radius: 50px;
+}
+form{
+    margin-top: 20px;
+}
+select{
+    font-size: 15px;
+    padding: 5px;
+}
+input[type="button"]{
+    margin-top: 20px;
+    padding: 18px 15px;
+    background-color: aquamarine;
+    color: rgb(223, 215, 250);
+    border: none;
+    cursor: pointer;
+}
+input[type=button], input[type=submit]{
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+    padding: 2px 12px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
